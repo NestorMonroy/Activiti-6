@@ -15,3 +15,14 @@ modules/activiti-ui/activiti-app/data
 bower_components
 modules/activiti-webapp-rest2/src/main/webapp/docs/*.json
 modules/activiti-webapp-rest2/src/main/webapp/docs/*.yaml
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/generated/
+
+### VS Code ###
+.vscode/
+
+### Vagrant ###
+.vagrant/
